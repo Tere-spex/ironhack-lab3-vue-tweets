@@ -1,8 +1,9 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/tweets">Tweets</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Home/Props- $emit</router-link> |
+    <router-link to="/tweets">Tweets por props</router-link> |
+    <router-link to="/tweetsbycomponents">Tweets separado en Components</router-link> |
+    <router-link to="/about">$emit</router-link>
   </nav>
   <router-view/>
 </template>

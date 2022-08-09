@@ -1,6 +1,6 @@
 <template>
   <div className="tweet">
-    <img src="https://i.imgur.com/9yw1Fyw.jpg" className="profile" alt="profile"/>
+    <img src={image} className="profile" alt="profile"/>
     <div className="body">
       <div className="top">
         <span className="user">
@@ -30,8 +30,9 @@ export default {
         handle: String,
         timestamp:String,
         message:String,
-        image: URL
+        image: String,
     }
+    //  props:[ name, handle, timestamp, message, image ], cuando usar esta forma?????
 }
 </script>
 

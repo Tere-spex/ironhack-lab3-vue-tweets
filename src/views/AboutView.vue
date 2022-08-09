@@ -1,5 +1,23 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <MyNumber @emmit="addNumber"/>
+  <p>My number is {{number}}</p>
 </template>
+
+<script>
+import MyNumber from '../components/MyNumber.vue'
+export default {
+  name:"AboutView",
+  components: {
+    MyNumber
+  },
+  data: () => ({
+    number: 0,
+  }),
+  methods: {
+    addNumber(number){
+      console.log(number);
+      this.number += number;
+    },
+  },
+}
+</script>
