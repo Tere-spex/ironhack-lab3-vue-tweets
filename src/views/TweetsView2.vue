@@ -20,7 +20,7 @@ export default {
           {
               user: {
                   name: "Thoughts of Dog®",
-                  image: "https://picsum.photos/200/300",
+                  image: "https://picsum.photos/id/237/200/300",
                   handle: "dog_feelings",
               },
               timestamp: "1h ago",
@@ -121,7 +121,7 @@ export default {
   .profile {
     width: 50px;
     height: 50px;
-    border-radius: 50px;
+    border-radius: 100%;
     margin-right: 10px;
   }
   .name {

@@ -22,7 +22,7 @@ export default {
             {
                 user: {
                     name: "Thoughts of Dog®",
-                    image: "https://i.imgur.com/b0EdHVV.jpg",
+                    image: "https://picsum.photos/id/237/200/300",
                     handle: "dog_feelings",
                 },
                 timestamp: "1h ago",
@@ -31,7 +31,7 @@ export default {
             {
                 user: {
                     name: "Thoughts of Dog®",
-                    image: "https://i.imgur.com/b0EdHVV.jpg",
+                    image: "https://picsum.photos/id/237/200/300",
                     handle: "dog_feelings",
                 },
                 timestamp: "2h ago",
@@ -40,7 +40,7 @@ export default {
             {
                 user: {
                     name: "Thoughts of Dog®",
-                    image: "https://i.imgur.com/b0EdHVV.jpg",
+                    image: "https://picsum.photos/id/237/200/300",
                     handle: "dog_feelings",
                 },
                 timestamp: "3h ago",

@@ -1,6 +1,6 @@
 <template>
   <div className="tweet">
-    <ProfileImage image="user.image" />
+    <ProfileImage :image="user.image" />
     <div className="body">
       <div className="top">
         <User :name="user.name" :handle="user.handle" />
